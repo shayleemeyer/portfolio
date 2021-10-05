@@ -59,7 +59,7 @@ const list = [
       }, [selected]);
     return (
         <div className = "personal" id="personal">
-            <h1>Things I love!</h1>
+            <h1>Interests</h1>
             <ul>
                 {list.map((item)=> (
                     <PersonalList title={item.title} 
