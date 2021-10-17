@@ -17,8 +17,8 @@ export default function Intro() {
         })
     }, [])
     return (
-        <div className="intro" id="intro">
-            <div className="left">
+        <div className="introWrapper" id="intro">
+            <div className="introContent">
                 <div className="wrapper">
                     <h2>Hi There, I'm</h2>
                     <h1>Shaylee Meyer</h1>
@@ -31,7 +31,6 @@ export default function Intro() {
                     <img src="assets/down.png" alt=''/>
                 </a>
             </div>
-            <div className="right"></div>
         </div>
     )
 }

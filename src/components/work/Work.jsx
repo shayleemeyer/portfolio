@@ -5,28 +5,29 @@ import { useState } from 'react';
 export default function Work() {
     const [currentSlide, setCurrentSlide] = useState(0);
     const data= [
-
-
         {
-            id: "1",
+            id: "0",
             title: "Product/VAVE Engineer",
             pointOne: "●	Created program that sifts through material attributes to generates viable matches to requested part type.",
             pointTwo: "●	Design real-world automotive parts using a variety of technologies for validation and failure analysis.",
-            pointThree:"●	Major focus on product improvement through innovative and collaborative methods. "
+            pointThree:"●	Major focus on product improvement through innovative and collaborative methods. ",
+            img: "assets/car.png"
         },
         {
-            id: "2",
+            id: "1",
             title: "Product Design Engineering Intern",
             pointOne: "	●	Internal part design and reverse engineering of products.",
             pointTwo: "●	Created method to increase efficiency of CAD work using a solution that could potentially save the company hundreds of thousands of dollars. ",
-            pointThree:"●	Global Purchasing and Marketing support. "
+            pointThree:"●	Global Purchasing and Marketing support. ",
+            img: "assets/gasket.jpg"
         },
         {
-            id: "3",
+            id: "2",
             title: "Manufacturing Engineering Intern",
             pointOne: "●	Improved and designed systems that enhanced production rates. ",
             pointTwo: "●	Effectively coordinated projects with vendors discussing projects upwards of $75,000. ",
-            pointThree:"●	Project Focus on ergonomics and efficiency."
+            pointThree:"●	Project Focus on ergonomics and efficiency.",
+            img: "assets/robot.jpg"
         }
      ];
 
@@ -34,16 +35,24 @@ export default function Work() {
         way === "left"
           ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
           : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
+
+          console.log({currentSlide});
       };
 
-
+console.log("first current slide" + currentSlide);
     return (
-        <div className = 'work' id="work">
+        
+       <div className = 'work' id="work">
+       <h1>Work History</h1>
+       
+       <div style={{display: "flex", flexDirection:"row", alignItems: "center"}}>
+       
             <div className="slider" style={{transform: `translateX(-${currentSlide *100}vw)`}}>
                 {data.map((d)=>(
 
                 
                 <div className="container">
+                    
                     <div className="item">
                         <div className="left">
                             <div className="leftContainer">
@@ -54,12 +63,12 @@ export default function Work() {
                             </div>
                         </div>
                         <div className="right">
-                            <img src="assets/car.png" alt=""/>
+                        <img src={d.img} alt=""/>
                         </div>
 
                     </div>
                 </div>
-                ))}
+                ))} 
                 
             </div>
           
@@ -75,5 +84,8 @@ export default function Work() {
                 alt=""
                 onClick={()=> handleClick('right')}
             />
+            </div>
         </div>
+        
+        
     )}

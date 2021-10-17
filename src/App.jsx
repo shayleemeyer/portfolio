@@ -2,9 +2,10 @@ import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
 import Work from './components/work/Work';
 import Testimonial from './components/testimonials/Testimonials';
-import Portfolio from './components/portfolio/Portfolio';
+import Portfolio from "./components/portfolio/Portfolio";
 import Personal from "./components/personal/Personal";
 import Menu from "./components/menu/Menu";
+import Leadership from "./components/leadership/Leadership";
 import './app.scss';
 import {useState} from "react";
 
@@ -17,10 +18,12 @@ function App() {
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
         <Intro/>
-        <Portfolio/>
         <Work/>
-        <Testimonial/>
+        <Portfolio/>
+        <Leadership/>
         <Personal/>
+        <Testimonial/>
+        
       </div>
     </div>
   );

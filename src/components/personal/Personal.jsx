@@ -70,6 +70,7 @@ const list = [
             </ul>
             <div className="container">
         {data.map((d) => (
+          <a href={d.link} target="_blank">
           <div className="item">
             <img
               src={d.img}
@@ -77,6 +78,7 @@ const list = [
             />
             <h3>{d.title}</h3>
           </div>
+          </a>
         ))}
       </div>
     </div>

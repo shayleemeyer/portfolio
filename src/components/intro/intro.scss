@@ -1,17 +1,17 @@
 @import "../../global.scss";
 
-.intro{
+.introWrapper{
     background-color: white;
     display: flex;
 
-
     @include mobile{
         flex-direction: column;
-        align-items: center;
-    }
+        align-items:left;
+      }
+   
 
-    .left{
-        flex: 0.5;
+    .introContent{
+        
 
         .wrapper{
             width: 100%;
@@ -21,13 +21,26 @@
             flex-direction: column;
             justify-content: center;
 
+            @include mobile{
+                padding-left: 0;
+                align-items: center;
+              }
+
             h1{
                 font-size: 60px;
                 margin: 10px 0;
+                text-align: center;
 
             }
+
+            @include mobile{
+                font-size: 40px;
+                
+              }
+
             h2{
                 font-size: 35px;
+                
 
             }
             h3{
@@ -36,6 +49,9 @@
                     font-size: inherit;
                     color: lightseagreen;
                 }
+                @include mobile{
+                    font-size: 20px;
+                  }
             }
             h4{
                 font-size: 12px;
@@ -61,9 +77,6 @@
         }
     }
 
-
-    .right{
-
-        flex: 0.5;
-    }
+// justify-content: center
+    
 }
