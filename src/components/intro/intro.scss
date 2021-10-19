@@ -1,13 +1,14 @@
 @import "../../global.scss";
+@import "../../breakpoints.scss";
 
 .introWrapper{
     background-color: white;
     display: flex;
 
-    @include mobile{
+    /* @include mobile{
         flex-direction: column;
         align-items:left;
-      }
+      } */
    
 
     .introContent{
@@ -29,7 +30,9 @@
             h1{
                 font-size: 60px;
                 margin: 10px 0;
-                text-align: center;
+                @include mobile {
+                    text-align: center;
+                }
 
             }
 

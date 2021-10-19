@@ -1,3 +1,4 @@
+@import "../../breakpoints.scss";
 
 .work{
     background-color: #9acfd6;
@@ -6,6 +7,8 @@
     justify-content: center;
     position: relative;
     flex-direction: column;
+
+  
     
     
 
@@ -13,7 +16,8 @@
     h1 {
         font-size: 50px;
         color: white;
-    
+
+       
        
         }
 
@@ -23,14 +27,16 @@
         cursor: pointer;
 
         
+
+        
     
         &.left {
-          left: 100px;
+          left: 2%;
           transform: rotateY(180deg);
         }
     
         &.right {
-          right: 100px;
+          right: 2%;
         }
     }
 
@@ -79,6 +85,10 @@
 
                         h2{
                             font-size: 50px;
+
+                            @include media ( "<1964px"){
+                                font-size: 25px;
+                             }
                         }
                         p{
                             font-size: 20px;

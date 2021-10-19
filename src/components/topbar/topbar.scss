@@ -1,5 +1,6 @@
 
 @import "../../global.scss";
+@import "../../breakpoints.scss";
 
 
 .topbar{
@@ -11,6 +12,12 @@
     top: 0;
     z-index: 3;
     transition: all 1s ease;
+
+    @include media ( "<465px"){
+        height: 100px;
+    }
+        
+    
 
     .wrapper{
         padding: 10px 30px;
@@ -35,7 +42,7 @@
                 align-items: center;
                 margin-left: 30px;
 
-                @include mobile{
+                @include media ( "<855px"){
                     display: none;
                   }
           
