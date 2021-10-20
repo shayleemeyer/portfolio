@@ -14,8 +14,10 @@
 
     
     h1 {
-        font-size: 50px;
+        font-size: 5vw;
         color: white;
+        height: 150px;
+        text-align: center;
 
        
        
@@ -84,14 +86,20 @@
                         }
 
                         h2{
-                            font-size: 50px;
+                            font-size: 5vw;
 
-                            @include media ( "<1964px"){
+                            @include media ( ">996px", "<1964px"){
                                 font-size: 25px;
                              }
+
+                            
                         }
                         p{
                             font-size: 20px;
+
+                            @include media ("<996px"){
+                                display: none;
+                            }
                         }
                     }
                 }
