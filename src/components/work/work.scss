@@ -88,7 +88,7 @@
                         h2{
                             font-size: 5vw;
 
-                            @include media ( ">996px", "<1964px"){
+                            @include media ( ">996px", "<1964px" ){
                                 font-size: 25px;
                              }
 

@@ -1,28 +1,38 @@
 @import "../../global.scss";
+@import "../../breakpoints.scss";
 
 .personal{
     background-color: rgb(213, 233, 246);
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 
     h1{
-        font-size: 50px;
+        font-size: 5vw;
         color: white;
-        margin:20px;
-        padding: 20;
-
+        margin:70px;
+        /* padding: 30; */
         
-        @include mobile{
-            font-size: 20px;
-          }
+        @include media ( "<1358px"){
+            height: 120px;
+
+        }
+        
+       
         }
 
     ul{
-        margin: 20px;
+        margin: 10px;
         padding:0;
         list-style: none;
         display: flex;
+        
+
+        @include media ( "<931px"){
+            height: 120px;
+
+        }
 
         
     }
