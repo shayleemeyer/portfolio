@@ -14,8 +14,8 @@
         margin:70px;
         /* padding: 30; */
         
-        @include media ( "<1358px"){
-            height: 120px;
+        @include media ( "<1410px"){
+            height: 15vw;
 
         }
         
@@ -29,8 +29,8 @@
         display: flex;
         
 
-        @include media ( "<931px"){
-            height: 120px;
+        @include media ( "<1410px"){
+            height: 25vw;
 
         }
 
@@ -50,7 +50,7 @@
             height: 300px;
             border-radius: 20px;
             border: 3px solid rgb(239, 235, 235);
-            margin: 10px 20px;
+            margin: 15px 20px;
             display: flex;
             justify-content: center;
             align-items: center;
