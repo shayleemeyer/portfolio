@@ -228,34 +228,34 @@ export const featuredPersonal = [
   export const portfolioList = [
     {
       id:1,
-      title: "React App",
+      title: "React",
       img:
-          "assets/courage.jpg",
-      link: "link"
+          "assets/react.png",
+      link: "https://github.com/shayleemeyer/nucampReact"
     },
     {
-      id:1,
-      title: "React App",
+      id:2,
+      title: "React Native",
       img:
-          "assets/courage.jpg",
-      link: "link"
+          "assets/reactNative.png",
+      link: "https://github.com/shayleemeyer/ReactNative"
     },
     {
-      id:1,
-      title: "React App",
+      id:3,
+      title: "Bootstrap",
       img:
-          "assets/courage.jpg",
-      link: "link"
+          "assets/bootstrap.png",
+      link: "https://github.com/shayleemeyer/nucampsiteBootstrap"
     },
     {
-      id:1,
-      title: "React App",
+      id:4,
+      title: "React",
       img:
-          "assets/courage.jpg",
-      link: "link"
+          "assets/center.png",
+      link: "https://github.com/shayleemeyer/centerutilization1"
     },
     {
-      id:1,
+      id:5,
       title: "React App",
       img:
           "assets/courage.jpg",

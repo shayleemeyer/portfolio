@@ -43,7 +43,7 @@ console.log("first current slide" + currentSlide);
     return (
         
        <div className = 'work' id="work">
-       <h1>Work History</h1>
+       <h1>Work history</h1>
        
        <div style={{display: "flex", flexDirection:"row", alignItems: "center"}}>
        
@@ -72,20 +72,21 @@ console.log("first current slide" + currentSlide);
                 
             </div>
           
-            <img
-                src="assets/arrow.png"
-                className="arrow left"
-                alt=""
-                onClick={()=> handleClick('left')}
-            />
-            <img
-                src="assets/arrow.png"
-                className="arrow right"
-                alt=""
-                onClick={()=> handleClick('right')}
-            />
+                <img
+                    src="assets/arrow.png"
+                    className="arrow left"
+                    alt=""
+                    onClick={()=> handleClick('left')}
+                />
+                <img
+                    src="assets/arrow.png"
+                    className="arrow right"
+                    alt=""
+                    onClick={()=> handleClick('right')}
+                />
             </div>
         </div>
+        
         
         
     )}

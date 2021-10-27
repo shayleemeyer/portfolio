@@ -1,5 +1,6 @@
 @import "../../breakpoints.scss";
 
+
 .work{
     background-color: #9acfd6;
     display: flex;
@@ -7,22 +8,27 @@
     justify-content: center;
     position: relative;
     flex-direction: column;
+    height: 200px;
+
 
   
-    
-    
-
-    
     h1 {
         font-size: 5vw;
         color: white;
-        height: 150px;
+        height: 200px;
         text-align: center;
-        margin: 200;
-
+        margin-bottom: 150px;
+        position: center;
+    
+    
        
        
         }
+        
+    
+
+    
+    
 
     .arrow {
         height: 50px;
@@ -50,6 +56,8 @@
         position: absolute;
         left: 0;
         transition: all 1s ease-out;
+        
+        
 
        
 
@@ -58,6 +66,7 @@
             display: flex;
             /* lign-items: center; */
             justify-content: center;
+            
 
 
             .item{
