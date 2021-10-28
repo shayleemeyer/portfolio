@@ -58,7 +58,7 @@ const list = [
         }
       }, [selected]);
     return (
-        <div className = "personal" id="personal">
+        <div className = "personal" id="personal" rel="noreferrer">
             <h1>Interests</h1>
             <ul>
                 {list.map((item)=> (

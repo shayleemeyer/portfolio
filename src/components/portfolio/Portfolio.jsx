@@ -13,7 +13,7 @@ useEffect(() => {
     switch (selected) {
       case "activities":
         setData(portfolioList);
-      
+      break;
       default:
         setData(portfolioList);
     }
@@ -25,7 +25,7 @@ useEffect(() => {
            
             <div className="container">
         {data.map((d) => (
-          <a href={d.link} target="_blank">
+          <a href={d.link} target="_blank" rel="noreferrer">
           <div className="item">
             <img
               src={d.img}
