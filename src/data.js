@@ -189,33 +189,38 @@ export const featuredPersonal = [
   export const podcastPortfolio = [
     {
       id: 1,
-      title: "Brain science",
+      title: "Huberman Lab",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "assets/huberman.png",
+        link: "https://hubermanlab.com",
     },
     {
       id: 2,
-      title: "andrew huberman",
+      title: "Impact Theory",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "assets/bilyue.png",
+        link: "https://impacttheory.com",
     },
     {
       id: 3,
-      title: "Content E-commerce Web Design",
+      title: "Stuff To Blow Your Mind",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "assets/stuffto.png",
+        link: "https://www.iheart.com/podcast/stuff-to-blow-your-mind-21123915/",
     },
     {
       id: 4,
-      title: "Content Relax Mobile App",
+      title: "Lex Fridman Podcast",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "assets/lex.png",
+        link: "https://lexfridman.com/podcast/",
     },
     {
       id: 5,
-      title: "Content Keser Web Design",
+      title: "The Ed Mylett Show",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "assets/mylett.png",
+        link: "https://www.edmylett.com/podcasts/",
     },
     {
       id: 6,

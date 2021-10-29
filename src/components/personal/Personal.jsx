@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import PersonalList from "../personalList/PersonalList";
 import "./personal.scss";
 import {
-  featuredPersonal,
+
   rhondaPortfolio,
   philosophyPortfolio,
   readingPortfolio,
@@ -14,10 +14,7 @@ export default function Personal() {
 const [selected, setSelected]=useState("featured");
 const [data, setData] = useState([]);
 const list = [
-    {
-      id: "activities",
-      title: "Activities",
-    },
+    
     {
       id: "rhonda",
       title: "Rhonda",
@@ -38,12 +35,6 @@ const list = [
 
     useEffect(() => {
         switch (selected) {
-          case "activities":
-            setData(featuredPersonal);
-            break;
-          case "rhonda":
-            setData(rhondaPortfolio);
-            break;
           case "podcasts":
             setData(podcastPortfolio);
             break;
@@ -53,8 +44,9 @@ const list = [
           case "philosophy":
             setData(philosophyPortfolio);
             break;
-          default:
-            setData(featuredPersonal);
+         default: 
+            setData(rhondaPortfolio);
+            break;
         }
       }, [selected]);
     return (
