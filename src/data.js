@@ -196,12 +196,7 @@
         "assets.nosync/mylett.png",
         link: "https://www.edmylett.com/podcasts/",
     },
-    {
-      id: 6,
-      title: "Content Banking App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
+   
   ];
 
   export const portfolioList = [
@@ -230,14 +225,14 @@
       id:4,
       title: "React",
       img:
-          "assets.nosync/center.png",
+          "assets.nosync/centerutilization.png",
       link: "https://github.com/shayleemeyer/centerutilization1"
     },
     {
       id:5,
-      title: "React App",
+      title: "Node",
       img:
-          "assets.nosync/courage.jpg",
+          "assets.nosync/node.png",
       link: "link"
     }
   ]

@@ -20,15 +20,15 @@ export default function Intro() {
         <div className="introWrapper" id="intro">
             <div className="introContent">
                 <div className="wrapper">
-                    <h2>Hi There, I'm</h2>
-                    <h1>Shaylee Meyer</h1>
+                    <h2>Hi there, I'm</h2>
+                    <h1>Shaylee</h1>
                     <h3>
                         The coolest <span ref={textRef}></span>
                     </h3>
                     <h4>(self-proclaimed^ )</h4>
                 </div>
                 <a href="#portfolio">
-                    <img src="assets/down.png" alt=''/>
+                    <img src="assets.nosync/down.png" alt=''/>
                 </a>
             </div>
         </div>

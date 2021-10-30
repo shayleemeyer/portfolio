@@ -17,6 +17,7 @@
         
         @include media ( "<1410px"){
             height: 15vw;
+            margin: 3vw;
 
         }
         
@@ -30,10 +31,14 @@
         display: flex;
         
 
-        @include media ( "<1410px"){
+        @include media ( "<505px"){
             height: 10vw;
+            flex-direction: column;
+            display: flex;
+           
 
         }
+        
 
         
     }
@@ -63,7 +68,7 @@
 
             h3{
                 position: absolute;
-                font-size: 20px;
+                font-size: 10px;
                 text-align: center;
             }
 

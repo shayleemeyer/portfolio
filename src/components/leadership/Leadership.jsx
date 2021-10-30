@@ -16,7 +16,7 @@ import { useState } from 'react';
             pointOne: "●	Voted 2019 President of the Year amongst 10 other Greek organizations",
             pointTwo: "● Created tools using logical formulas to completely restructure organization of chapter finances.",
             pointThree:"●	Responsible for all chapter related legalities and activities.  ",
-            img: "assets/alphaxicrest.png"
+            img: "assets.nosync/alphaxicrest.png"
         },
         {
             id: "2",
@@ -24,7 +24,7 @@ import { useState } from 'react';
             pointOne: "	●	Elected supervisor of Junior Executive Board",
             pointTwo: "●	Coordination of events that saw the attendance of over 300 people. ",
            
-            img: "assets/panhel.png"
+            img: "assets.nosync/panhel.png"
         },
         {
             id: "3",
@@ -32,7 +32,7 @@ import { useState } from 'react';
             pointOne: "● Elected supervisor of Member Development council and all related activities ",
             pointTwo: "●	Only elected Emerging Leader to attend leadership conference in Maryland.",
             pointThree:"●	Event coordination fostering the growth of the chapter and individual members.",
-            img: "assets/alphaxi.jpg"
+            img: "assets.nosync/alphaxi.jpg"
         }
      ];
 
@@ -76,13 +76,13 @@ import { useState } from 'react';
             </div>
           
             <img
-                src="assets/arrow.png"
+                src="assets.nosync/arrow.png"
                 className="arrow left"
                 alt=""
                 onClick={()=> handleClick('left')}
             />
             <img
-                src="assets/arrow.png"
+                src="assets.nosync/arrow.png"
                 className="arrow right"
                 alt=""
                 onClick={()=> handleClick('right')}

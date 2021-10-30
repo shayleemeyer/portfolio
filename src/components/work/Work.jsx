@@ -11,15 +11,15 @@ export default function Work() {
             pointOne: "●	Created program that sifts through material attributes to generates viable matches to requested part type.",
             pointTwo: "●	Design real-world automotive parts using a variety of technologies for validation and failure analysis.",
             pointThree:"●	Major focus on product improvement through innovative and collaborative methods. ",
-            img: "assets/car.png"
+            img: "assets.nosync/car.png"
         },
         {
             id: "1",
             title: "Product Design Engineering Intern",
-            pointOne: "	●	Internal part design and reverse engineering of products.",
-            pointTwo: "●	Created method to increase efficiency of CAD work using a solution that could potentially save the company hundreds of thousands of dollars. ",
+            pointOne: "	●	Peformed internal part design and reverse engineering of products.",
+            pointTwo: "●	Created method to decrease CAD design time by nearly 80%. ",
             pointThree:"●	Global Purchasing and Marketing support. ",
-            img: "assets/gasket.jpg"
+            img: "assets.nosync/gasket.jpg"
         },
         {
             id: "2",
@@ -27,7 +27,7 @@ export default function Work() {
             pointOne: "●	Improved and designed systems that enhanced production rates. ",
             pointTwo: "●	Effectively coordinated projects with vendors discussing projects upwards of $75,000. ",
             pointThree:"●	Project Focus on ergonomics and efficiency.",
-            img: "assets/robot.jpg"
+            img: "assets.nosync/robot.jpg"
         }
      ];
 
@@ -73,13 +73,13 @@ console.log("first current slide" + currentSlide);
             </div>
           
                 <img
-                    src="assets/arrow.png"
+                    src="assets.nosync/arrow.png"
                     className="arrow left"
                     alt=""
                     onClick={()=> handleClick('left')}
                 />
                 <img
-                    src="assets/arrow.png"
+                    src="assets.nosync/arrow.png"
                     className="arrow right"
                     alt=""
                     onClick={()=> handleClick('right')}
