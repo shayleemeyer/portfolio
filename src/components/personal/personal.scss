@@ -17,12 +17,12 @@
     h1{
         font-size: 5vw;
         color: white;
-        margin:40px;
+        margin: 40px;
         /* padding: 30; */
         
         @include media ( "<1410px"){
-            height: 15vw;
-            margin: 3vw;
+            height: 6vw;
+            margin: 2vw;
 
         }
         

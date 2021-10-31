@@ -11,7 +11,7 @@ export default function Code() {
             pointOne: "● Formal education from NuCamp Bootcamp as part of the Full-Stack Web Development program.",
             pointTwo: "● Focus on project creation and management from start to finish.",
             pointThree:"● Highlighted Competencies: Chrome DevTools,  Reactstrap, Redux, Responsive UI, Bootstrap",
-            img: "assets.nosync/car.png"
+            img: "assets.nosync/reactthing.png"
         },
         {
             id: "1",
@@ -19,7 +19,7 @@ export default function Code() {
             pointOne: "● Formal education from NuCamp Bootcamp as part of the Full-Stack Web Development program.",
             pointTwo: "● Focus on project creation and management from start to finish.", 
             pointThree:"● Highlighted Competencies: Android Studio,  AVD Manager, Redux, Store States and Dispatch",
-            img: "assets.nosync/robot.jpg"
+            img: "assets.nosync/reactnativething.png"
         },
         {
             id: "2",
@@ -27,7 +27,7 @@ export default function Code() {
             pointOne: "● Formal education from NuCamp Bootcamp as part of the Full-Stack Web Development program.",
             pointTwo: "● Focus on project creation and management from start to finish.", 
             pointThree:"● Highlighted Competencies: Postman,  Asynchronous I/O, MongoDb, RESTful API",
-            img: "assets.nosync/gasket.jpg"
+            img: "assets.nosync/nodething.png"
         },
        
        
