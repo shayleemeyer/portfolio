@@ -44,7 +44,7 @@ export default function Code() {
 console.log("first current slide" + currentSlide);
     return (
         
-       <div className = 'work' id="work">
+       <div className = 'code' id="code">
        <h1>Coding Experience</h1>
        
        <div style={{display: "flex", flexDirection:"row", alignItems: "center"}}>

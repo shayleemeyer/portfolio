@@ -8,11 +8,14 @@ export default function Menu({menuOpen, setMenuOpen}) {
                     <a href="#intro">Home</a>
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#work">Work History</a>
+                    <a href="#code">Coding Experience</a>
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
                     <a href="#portfolio">Portfolio</a>
                 </li> 
+                <li onClick={()=>setMenuOpen(false)}>
+                    <a href="#work">Work History</a>
+                </li>
                 <li onClick={()=>setMenuOpen(false)}>
                     <a href="#leadership">Leadership Experience</a>
                 </li>
