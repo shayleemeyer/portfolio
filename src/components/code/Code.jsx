@@ -1,34 +1,36 @@
 import React from 'react';
-import "./work.scss";
+import "./code.scss";
 import { useState } from 'react';
 
-export default function Work() {
+export default function Code() {
     const [currentSlide, setCurrentSlide] = useState(0);
     const data= [
         {
             id: "0",
-            title: "Product/VAVE Engineer",
-            pointOne: "●	Created a program using React.js that sifts through material attributes to generate viable matches to requested part type.",
-            pointTwo: "●	Design real-world automotive parts using a variety of technologies for validation and failure analysis.",
-            pointThree:"●	Extensive focus on product improvement through innovative and collaborative methods. ",
+            title: "React.js",
+            pointOne: "● Formal education from NuCamp Bootcamp as part of the Full-Stack Web Development program.",
+            pointTwo: "● Focus on project creation and management from start to finish.",
+            pointThree:"● Highlighted Competencies: Chrome DevTools,  Reactstrap, Redux, Responsive UI, Bootstrap",
             img: "assets.nosync/car.png"
         },
         {
             id: "1",
-            title: "Product Design Engineering Intern",
-            pointOne: "	●	Lead internal part design and reverse engineering of products.",
-            pointTwo: "●	Developed a method to decrease CAD design time by nearly 80%. ",
-            pointThree:"●	Acted as global purchasing and marketing support. ",
-            img: "assets.nosync/gasket.jpg"
+            title: "ReactNative.js",
+            pointOne: "● Formal education from NuCamp Bootcamp as part of the Full-Stack Web Development program.",
+            pointTwo: "● Focus on project creation and management from start to finish.", 
+            pointThree:"● Highlighted Competencies: Android Studio,  AVD Manager, Redux, Store States and Dispatch",
+            img: "assets.nosync/robot.jpg"
         },
         {
             id: "2",
-            title: "Manufacturing Engineering Intern",
-            pointOne: "●	Improved and designed systems that enhanced production rates. ",
-            pointTwo: "●	Effectively coordinated projects with vendors discussing projects worth upwards of $75,000. ",
-            pointThree:"●	Project Focus on ergonomics and efficiency rates.",
-            img: "assets.nosync/robot.jpg"
-        }
+            title: "Node",
+            pointOne: "● Formal education from NuCamp Bootcamp as part of the Full-Stack Web Development program.",
+            pointTwo: "● Focus on project creation and management from start to finish.", 
+            pointThree:"● Highlighted Competencies: Postman,  Asynchronous I/O, MongoDb, RESTful API",
+            img: "assets.nosync/gasket.jpg"
+        },
+       
+       
      ];
 
      const handleClick = (way) => {
@@ -43,7 +45,7 @@ console.log("first current slide" + currentSlide);
     return (
         
        <div className = 'work' id="work">
-       <h1>Work history</h1>
+       <h1>Coding Experience</h1>
        
        <div style={{display: "flex", flexDirection:"row", alignItems: "center"}}>
        

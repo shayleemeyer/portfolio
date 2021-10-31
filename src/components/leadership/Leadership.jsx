@@ -13,7 +13,7 @@ import { useState } from 'react';
         {
             id: "1",
             title: "President, Alpha Xi Delta",
-            pointOne: "●	Voted 2019 President of the Year amongst 10 other Greek organizations",
+            pointOne: "●	Voted 2019 President of the Year amongst 10 other Greek organizations.",
             pointTwo: "● Created tools using logical formulas to completely restructure organization of chapter finances.",
             pointThree:"●	Responsible for all chapter related legalities and activities.  ",
             img: "assets.nosync/alphaxicrest.png"
@@ -21,17 +21,17 @@ import { useState } from 'react';
         {
             id: "2",
             title: "Vice President, National Panhellenic Conference",
-            pointOne: "	●	Elected supervisor of Junior Executive Board",
-            pointTwo: "●	Coordination of events that saw the attendance of over 300 people. ",
+            pointOne: "	●	Elected Supervisor of Junior Executive Board.",
+            pointTwo: "●	Coordinated conference events seeing the attendance of over 300 people. ",
            
             img: "assets.nosync/panhel.png"
         },
         {
             id: "3",
             title: "Vice President of Member Development, Alpha Xi Delta",
-            pointOne: "● Elected supervisor of Member Development council and all related activities ",
-            pointTwo: "●	Only elected Emerging Leader to attend leadership conference in Maryland.",
-            pointThree:"●	Event coordination fostering the growth of the chapter and individual members.",
+            pointOne: "● Elected supervisor of Member Development council and all related activities. ",
+            pointTwo: "● Elected Emerging Leader to attend leadership conference in Maryland.",
+            pointThree:"● Coordinated events fostering the growth of both the chapter and individual members.",
             img: "assets.nosync/alphaxi.jpg"
         }
      ];
