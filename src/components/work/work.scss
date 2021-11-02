@@ -102,6 +102,9 @@
                         justify-content: space-between;
 
                         }
+                        .pointthree{
+                            font-style: bold;
+                        }
 
                         h2{
                             font-size: 1.7vw;
@@ -122,6 +125,7 @@
                         p{
                             font-size: 20px;
                             /* word-spacing: 5px; */
+                            
 
                             @include media ("<1190px"){
                                 display: none;

@@ -4,20 +4,63 @@
 .code{
     background-color: #bfcfb3;
     display: flex;
-    align-items: center;
     justify-content: center;
+    flex-direction: column;
     position: relative;
+    grid-column: 3 /auto;
+        grid-column-start: 3;
+        grid-column-end: auto;
    
 
   
-   
+   .skills{
+       display: grid;
+       width: 90%;
+       
+        box-sizing: border-box;
+       grid-template-columns: repeat(auto-fill, minmax(120px, 2fr));
+       gap: 1rem;
+       row-gap: 1rem;
+       column-gap: 1rem;
+       list-style: none;
+       list-style-position: initial;
+       list-style-image: initial;
+       list-style-type: none;
+       padding-inline-start: 0px;
+       flex-direction: column;
+       flex-wrap: wrap;
+       overflow-x: auto;
+       
+
+       .skill{
+           display: flex;
+           align-items: center;
+           -webkit-box-pack: center;
+           -webkit-box-align:center;
+           list-style: none;
+           padding: 1rem;
+           background: gray;
+           box-shadow: lightgray;
+           width: 30vw;
+           height: 20vw;
+           border-radius: 10px;
+           border: 3px solid rgb(239, 235, 235);
+           margin: 10px 20px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           color: white;
+           position: relative;
+           
+       }
+   }
     
 
     
     h1 {
         font-size: 5vw;
         color: white;
-        height: 600px;
+        height: 50px;
         text-align: center;
        
         @include media ("<996px"){
@@ -28,7 +71,7 @@
        
         }
 
-    .arrow {
+/*     .arrow {
         height: 50px;
         position: absolute;
         cursor: pointer;
@@ -51,10 +94,10 @@
         display: flex;
         position: absolute;
         left: 0;
-        transition: all 1s ease-out;
+        transition: all 1s ease-out; */
 
 
-        .container {
+        /* .container {
             width: 100vw;
             display: flex;
             align-items: center;
@@ -121,7 +164,7 @@
                         }
                         p{
                             font-size: 20px;
-                            /* word-spacing: 5px; */
+                            
 
                             @include media ("<1190px"){
                                 display: none;
@@ -137,9 +180,7 @@
                     align-items: center;
                     justify-content: center;
 
-                    /* @include media ("<996px"){
-                        display: none;
-                    } */
+                    
 
                     img{
                         width:50%;
@@ -150,5 +191,5 @@
             
                 }
             }
-        }
+        } */
     } 

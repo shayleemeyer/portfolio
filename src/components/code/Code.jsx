@@ -1,9 +1,9 @@
 import React from 'react';
 import "./code.scss";
-import { useState } from 'react';
+import { useState , Grid, FormRow} from 'react';
 
 export default function Code() {
-    const [currentSlide, setCurrentSlide] = useState(0);
+ /*    const [currentSlide, setCurrentSlide] = useState(0);
     const data= [
         {
             id: "0",
@@ -41,15 +41,15 @@ export default function Code() {
           console.log({currentSlide});
       };
 
-console.log("first current slide" + currentSlide);
+console.log("first current slide" + currentSlide); */
     return (
         
        <div className = 'code' id="code">
        <h1>Coding Experience</h1>
        
-       <div style={{display: "flex", flexDirection:"row", alignItems: "center"}}>
+       <div >
        
-            <div className="slider" style={{transform: `translateX(-${currentSlide *100}vw)`}}>
+            {/* <div className="slider" style={{transform: `translateX(-${currentSlide *100}vw)`}}>
                 {data.map((d)=>(
 
                 
@@ -85,10 +85,32 @@ console.log("first current slide" + currentSlide);
                     className="arrow right"
                     alt=""
                     onClick={()=> handleClick('right')}
-                />
-            </div>
-        </div>
-        
-        
+                /> */}
+
+                 <ul className="skills">
+            
+                    <a role ="link" target ="_blank" rel="noreferrer" >
+                        <li className="skill">1</li>
+                    </a>
+                    <a role ="link" target ="_blank" rel="noreferrer" >
+                        <li className="skill">1</li>
+                    </a>
+                    <a role ="link" target ="_blank" rel="noreferrer" >
+                        <li className="skill">1</li>
+                    </a>
+                    <a role ="link" target ="_blank" rel="noreferrer" >
+                        <li className="skill">1</li>
+                    </a>
+                    <a role ="link" target ="_blank" rel="noreferrer" >
+                        <li className="skill">1</li>
+                    </a>
+                    <a role ="link" target ="_blank" rel="noreferrer" >
+                        <li className="skill">1</li>
+                    </a>
+                    
+                </ul>
+            </div> 
+
+        </div>  
         
     )}
