@@ -1,8 +1,9 @@
 @import "../../breakpoints.scss";
+@import "../../global.scss";
 
 
 .code{
-    background-color: #bfcfb3;
+    background-color: black;
     display: flex;
     box-sizing: border-box;
     justify-content: center;
@@ -60,6 +61,33 @@
            color: white;
            position: relative;
            overflow-y: hidden;
+           cursor: pointer;
+
+           h3{
+               position: absolute;
+               font-size: 20px;
+               opacity: 0;
+           }
+
+           img{
+               width: 100%;
+               height: 100%;
+               object-fit: cover;
+               z-index: 1;
+           }
+
+           &:hover{
+               background-color: 
+               black;
+               img{
+                   opacity: 0.2;
+                   z-index:0;
+               }
+               h3{
+                opacity: 1;
+                z-index:0;  
+            }
+           }
            
        }
    }
@@ -68,7 +96,7 @@
     
     h1 {
         font-size: 5vw;
-        color: white;
+        color: $mainColor;
         height: 100px;
         text-align: center;
        

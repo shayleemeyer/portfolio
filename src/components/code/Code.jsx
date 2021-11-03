@@ -20,7 +20,7 @@ export default function Code() {
 return (
         
        <div className = 'code' id="code">
-       <h1>Coding Experience</h1>
+       <h1>Coding Skills</h1>
        
        <div >
      
@@ -32,6 +32,7 @@ return (
                                 src={d.img}
                                 alt=""
                             />
+                            <h3>{d.title}</h3>
                         </li>
                     </a>
                  

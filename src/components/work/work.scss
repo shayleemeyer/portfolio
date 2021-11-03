@@ -1,8 +1,9 @@
 @import "../../breakpoints.scss";
+@import "../../global.scss";
 
 
 .work{
-    background-color: #bfcfb3;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,7 +17,7 @@
     
     h1 {
         font-size: 5vw;
-        color: white;
+        color: $mainColor;
         height: 600px;
         text-align: center;
        

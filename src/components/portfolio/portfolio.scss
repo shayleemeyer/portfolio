@@ -2,7 +2,7 @@
 @import "../../breakpoints.scss";
 
 .portfolio{
-    background-color: #233529;
+    background-color: #57cfdf;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,7 +10,7 @@
 
     h1{
         font-size: 5vw;
-        color: white;
+        color: $mainColor;
         margin:50px;
         
 
@@ -74,6 +74,7 @@
                     opacity: 0.2;
                     z-index:0;
                 }
+                
             }
         }
     }

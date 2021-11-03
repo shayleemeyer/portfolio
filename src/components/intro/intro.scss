@@ -2,7 +2,7 @@
 @import "../../breakpoints.scss";
 
 .introWrapper{
-    background-color: #ecede8;
+    background-color: white;
     display: flex;
 
     /* @include mobile{
@@ -30,6 +30,7 @@
             h1{
                 font-size: 60px;
                 margin: 10px 0;
+                color: #02161e;
                 @include mobile {
                     text-align: center;
                 }
@@ -43,6 +44,7 @@
 
             h2{
                 font-size: 35px;
+                color: #02161e;
                 
 
             }
@@ -50,7 +52,7 @@
                 font-size: 30px;
                 span{
                     font-size: inherit;
-                    color: #88a889;
+                    color: $mainColor;
                 }
                 @include mobile{
                     font-size: 20px;
