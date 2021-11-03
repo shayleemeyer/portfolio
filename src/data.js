@@ -244,4 +244,94 @@
     }
   ]
 
+  export const iconList = [
+    {
+      id:1,
+      title: "React",
+      img:
+          "assets.nosync/reacticon.png",
+      link: "https://github.com/shayleemeyer/nucampReact"
+    },
+    {
+      id:1,
+      title: "Node",
+      img:
+          "assets.nosync/nodejsicon.png",
+      link: "https://github.com/shayleemeyer/nucampReact"
+    },
+    {
+      id:1,
+      title: "JavaScript",
+      img:
+          "assets.nosync/javascripticon.png",
+      link: "https://github.com/shayleemeyer/nucampReact"
+    },
+    {
+      id:1,
+      title: "HTML",
+      img:
+          "assets.nosync/htmlicon.png",
+      link: "https://github.com/shayleemeyer/nucampReact"
+    },
+    {
+      id:1,
+      title: "HTML5",
+      img:
+          "assets.nosync/html5.png",
+      link: "https://github.com/shayleemeyer/nucampReact"
+    },
+    {
+      id:1,
+      title: "SASS",
+      img:
+          "assets.nosync/sassicon.png",
+      link: "https://github.com/shayleemeyer/nucampReact"
+    },
+    {
+      id:1,
+      title: "Bootstrap",
+      img:
+          "assets.nosync/bootstrapicon.png",
+      link: "https://github.com/shayleemeyer/nucampReact"
+    },
+    {
+      id:1,
+      title: "Github",
+      img:
+          "assets.nosync/githubicon.png",
+      link: "https://github.com/shayleemeyer/nucampReact"
+    },
+    {
+      id:1,
+      title: "MongoDb",
+      img:
+          "assets.nosync/mongodbicon.png",
+      link: "https://github.com/shayleemeyer/nucampReact"
+    },
+    {
+      id:1,
+      title: "NPM",
+      img:
+          "assets.nosync/npmicon.png",
+      link: "https://github.com/shayleemeyer/nucampReact"
+    },
+    
+    {
+      id:1,
+      title: "Yarn",
+      img:
+          "assets.nosync/yarnicon.png",
+      link: "https://github.com/shayleemeyer/nucampReact"
+    },
+    {
+      id:1,
+      title: "Java",
+      img:
+          "assets.nosync/javaicon.png",
+      link: "https://github.com/shayleemeyer/nucampReact"
+    },
+
+
+  ]
+
   
