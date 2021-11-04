@@ -17,7 +17,7 @@ export default function Intro() {
         })
     }, [])
     return (
-        <div className="introWrapper" id="intro">
+        <div className="introWrapper" id="intro" >
             <div className="introContent">
                 <div className="wrapper">
                     <h2>Hi There, I'm</h2>

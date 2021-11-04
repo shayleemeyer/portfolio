@@ -9,7 +9,9 @@ import Leadership from "./components/leadership/Leadership";
 import Code from "./components/code/Code";
 import './app.scss';
 import {useState} from "react";
-
+import Footer from "./components/Footer/Footer";
+/* import { Router, Route, Link, browserHistory, IndexRoute } from 'react-router';
+ */
 
 function App() {
   const [menuOpen,setMenuOpen] = useState(false)
@@ -25,6 +27,7 @@ function App() {
         <Leadership/>
         <Personal/>
         <Testimonial/>
+       <Footer/> 
         
       </div>
     </div>
