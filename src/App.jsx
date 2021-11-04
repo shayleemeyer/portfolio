@@ -10,6 +10,7 @@ import Code from "./components/code/Code";
 import './app.scss';
 import {useState} from "react";
 import Footer from "./components/Footer/Footer";
+import Introduction from "./components/Introduction/Introduction";
 /* import { Router, Route, Link, browserHistory, IndexRoute } from 'react-router';
  */
 

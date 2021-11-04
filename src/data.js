@@ -250,70 +250,70 @@
       title: "React",
       img:
           "assets.nosync/reacticon.png",
-      link: "https://github.com/shayleemeyer/nucampReact"
+      link: "https://reactjs.org"
     },
     {
       id:1,
       title: "Node",
       img:
           "assets.nosync/nodejsicon.png",
-      link: "https://github.com/shayleemeyer/nucampReact"
+      link: "https://nodejs.org/en/"
     },
     {
       id:1,
       title: "JavaScript",
       img:
           "assets.nosync/javascripticon.png",
-      link: "https://github.com/shayleemeyer/nucampReact"
+      link: "https://www.javascript.com"
     },
     {
       id:1,
       title: "HTML",
       img:
           "assets.nosync/htmlicon.png",
-      link: "https://github.com/shayleemeyer/nucampReact"
+      link: "https://html.com"
     },
     {
       id:1,
       title: "HTML5",
       img:
           "assets.nosync/html5.png",
-      link: "https://github.com/shayleemeyer/nucampReact"
+      link: "https://html.com/html5/"
     },
     {
       id:1,
       title: "SASS",
       img:
           "assets.nosync/sassicon.png",
-      link: "https://github.com/shayleemeyer/nucampReact"
+      link: "https://sass-lang.com"
     },
     {
       id:1,
       title: "Bootstrap",
       img:
           "assets.nosync/bootstrapicon.png",
-      link: "https://github.com/shayleemeyer/nucampReact"
+      link: "https://getbootstrap.com"
     },
     {
       id:1,
       title: "Github",
       img:
           "assets.nosync/githubicon.png",
-      link: "https://github.com/shayleemeyer/nucampReact"
+      link: "https://github.com"
     },
     {
       id:1,
       title: "MongoDb",
       img:
           "assets.nosync/mongodbicon.png",
-      link: "https://github.com/shayleemeyer/nucampReact"
+      link: "https://www.mongodb.com"
     },
     {
       id:1,
       title: "NPM",
       img:
           "assets.nosync/npmicon.png",
-      link: "https://github.com/shayleemeyer/nucampReact"
+      link: "https://www.npmjs.com"
     },
     
     {
@@ -321,14 +321,14 @@
       title: "Yarn",
       img:
           "assets.nosync/yarnicon.png",
-      link: "https://github.com/shayleemeyer/nucampReact"
+      link: "https://yarnpkg.com"
     },
     {
       id:1,
       title: "Java",
       img:
           "assets.nosync/javaicon.png",
-      link: "https://github.com/shayleemeyer/nucampReact"
+      link: "https://www.java.com/en/"
     },
 
 
