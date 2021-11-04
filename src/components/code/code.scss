@@ -33,10 +33,10 @@
        padding-inline-start: 0px;
        flex-direction: column;
        flex-wrap: wrap;
-       /* overflow-x: visible; */
        margin-left: 17vw;
-       /* overflow-y: hidden;
-       overflow: visible; */
+       align-items: center;
+       justify-content: center;
+      
        
      
        
@@ -93,7 +93,7 @@
 
     
     h1 {
-        font-size: 5vw;
+        font-size: 4vw;
         color: $mainColor;
         height: 150px;
         text-align: center;

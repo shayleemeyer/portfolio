@@ -14,9 +14,10 @@
 
 
   h1 {
-    font-size: 50px;
+    font-size: 4vw;
     margin:20px;
     overflow-y: hidden;
+    color: #1d322d;
 
     @include media ("<500px"){
       font-size: 5vw;

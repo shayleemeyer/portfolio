@@ -20,7 +20,7 @@ export default function Code() {
 return (
         
        <div className = 'code' id="code">
-       <h1>Coding Skills</h1>
+       <h1>Coding Competencies</h1>
        
        <div >
      
