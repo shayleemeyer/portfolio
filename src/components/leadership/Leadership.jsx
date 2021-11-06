@@ -1,8 +1,6 @@
 
 import "./leadership.scss"; 
 
-/* import React, { Component } from "react"; */
-
 
 
 import { useState } from 'react';

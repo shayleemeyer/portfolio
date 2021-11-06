@@ -1,122 +1,98 @@
 @import "../../global.scss";
 @import "../../breakpoints.scss";
 
-.introWrapper{
-   
-    display: flex;
+.introWrapper {
+  display: flex;
 
-    /* @include mobile{
-        flex-direction: column;
-        align-items:left;
-      } */
-   
-      
+  .introContent {
+    .wrapper {
+      width: 100%;
+      height: 100%;
 
-    .introContent{
-        
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
 
-        .wrapper{
-            width: 100%;
-            height: 100%;
-            
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+      @include mobile {
+        padding-left: 0;
+        align-items: center;
+      }
+      img {
+        pointer-events: none;
+        position: absolute;
+        transform: rotateX(180deg);
+        width: 120%;
+        height: 120%;
+        z-index: -1;
 
-            @include mobile{
-                padding-left: 0;
-                align-items: center;
-              }
-              img{
-              pointer-events: none;
-               position: absolute;
-               transform: rotateX(180deg);
-               width: 120%;
-               height: 120%;
-               z-index: -1;
-
-               @include media ("<769px"){
-                width:150%;
-            }
-              }
-
-            h1{
-                font-size: 60px;
-                margin: 10px 0;
-                color: black;
-                text-shadow: 2px 2px #bbc0b9;
-                @include mobile {
-                    text-align: center;
-                }
-                @include media (">774px"){
-                    padding-left: 50px;
-                    
-                }
-
-            }
-
-            @include mobile{
-                font-size: 40px;
-                
-              }
-
-            h2{
-                font-size: 35px;
-                color: black;
-                
-                @include media (">774px"){
-                    padding-left: 50px;
-                }
-
-            }
-            h3{
-                font-size: 30px;
-                color: black;
-                
-                span{
-                    font-size: inherit;
-                    color: $mainColor;
-                    text-shadow: 2px 2px #1d322d;
-                }
-                @include mobile{
-                    font-size: 20px;
-                  }
-                  @include media (">774px"){
-                    padding-left: 50px;
-                    
-                }
-            }
-            h4{
-                font-size: 12px;
-                color: #bbc0b9;
-
-                @include media (">774px"){
-                    padding-left: 50px;
-                    
-                }
-            }
-        
+        @include media("<769px") {
+          width: 150%;
         }
-      
-        a{
-            position: absolute;
-            bottom: 10px;
-            left: 40%;
+      }
 
-            img{
-               /* width: 30px;   */
-               /* animation: arrowBlink 2s infinite; */
-               
-            }
-
-            @keyframes arrowBlink{
-                100%{
-                    opacity:0;
-                }
-            }
+      h1 {
+        font-size: 60px;
+        margin: 10px 0;
+        color: black;
+        text-shadow: 2px 2px #bbc0b9;
+        @include mobile {
+          text-align: center;
         }
+        @include media(">774px") {
+          padding-left: 50px;
+        }
+      }
+
+      @include mobile {
+        font-size: 40px;
+      }
+
+      h2 {
+        font-size: 35px;
+        color: black;
+
+        @include media(">774px") {
+          padding-left: 50px;
+        }
+      }
+      h3 {
+        font-size: 30px;
+        color: black;
+
+        span {
+          font-size: inherit;
+          color: $mainColor;
+          text-shadow: 2px 2px #1d322d;
+        }
+        @include mobile {
+          font-size: 20px;
+        }
+        @include media(">774px") {
+          padding-left: 50px;
+        }
+      }
+      h4 {
+        font-size: 12px;
+        color: #bbc0b9;
+
+        @include media(">774px") {
+          padding-left: 50px;
+        }
+      }
     }
 
-// justify-content: center
-    
+    a {
+      position: absolute;
+      bottom: 10px;
+      left: 40%;
+
+      
+
+      @keyframes arrowBlink {
+        100% {
+          opacity: 0;
+        }
+      }
+    }
+  }
 }

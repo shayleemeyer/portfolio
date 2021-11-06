@@ -51,10 +51,10 @@
       padding: 20px;
       transition: all 1s ease;
       overflow-y: hidden;
-      /* overflow: auto; */
+    
 
       @include mobile{
-       /*  height: 180px; */
+  
         margin: 10px 0;
       }
 
@@ -93,7 +93,7 @@
             border-radius: 50%;
             object-fit: cover;
             overflow-y: hidden;
-            /* margin: 0 30px; */
+           
 
             @include media("<769px"){
               width: 30px;
@@ -133,20 +133,13 @@
     
         }
 
-          /* @include mobile{
-            font-size: 14px;
-            padding: 20px;
-          } */
+         
         }
         h4{
             color: rgb(121, 115, 115);
             text-align: center;
             overflow-y: hidden;
-            /* @include mobile{
-              font-size: 13px;
-              padding: 20px;
-              margin-bottom: 20px;
-            } */
+            
 
             @include media("<769px"){
               display: none;

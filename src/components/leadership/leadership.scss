@@ -120,7 +120,7 @@
                         }
                         p{
                             font-size: 20px;
-                            /* word-spacing: 5px; */
+                            
 
                             @include media ("<996px"){
                                 display: none;
@@ -136,9 +136,7 @@
                     align-items: center;
                     justify-content: center;
 
-                    /* @include media ("<996px"){
-                        display: none;
-                    } */
+                   
 
                     img{
                         width:50%;

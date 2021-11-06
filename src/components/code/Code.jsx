@@ -4,7 +4,7 @@ import { useState , useEffect, Grid, FormRow} from 'react';
 import { iconList } from '../../data';
 
 export default function Code() {
-    const [selected/* , setSelected */]=useState("featured");
+    const [selected]=useState("featured");
     const [data, setData] = useState([]);
     
     useEffect(() => {

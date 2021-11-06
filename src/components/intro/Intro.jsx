@@ -30,9 +30,7 @@ export default function Intro() {
                     <h4>(self-proclaimed^ )</h4>
                     
                 </div>
-                <a href="#portfolio">
-                    {/* <img src="assets.nosync/down.png" alt=''/> */}
-                </a>
+                
             </div>
         </div>
     )
