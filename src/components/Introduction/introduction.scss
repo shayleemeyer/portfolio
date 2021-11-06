@@ -1,4 +1,5 @@
 @import "../../global.scss";
+@import "../../breakpoints.scss";
 
 .intro {
   background-color: white;
@@ -13,6 +14,9 @@
     flex: 0.5;
     overflow: hidden;
     background-color: #f1f1f1;
+    @include media ( "<465px"){
+      display: none;
+  }
 
     .imgContainer {
       width: 100%;

@@ -261,31 +261,17 @@
     },
     {
       id:1,
-      title: "JavaScript",
+      title: "MongoDb",
       img:
-          "assets.nosync/javascripticon.png",
-      link: "https://www.javascript.com"
-    },
+          "assets.nosync/mongodbicon.png",
+      link: "https://www.mongodb.com"
+    }, 
     {
       id:1,
-      title: "HTML",
+      title: "Redux",
       img:
-          "assets.nosync/htmlicon.png",
-      link: "https://html.com"
-    },
-    {
-      id:1,
-      title: "HTML5",
-      img:
-          "assets.nosync/html5.png",
-      link: "https://html.com/html5/"
-    },
-    {
-      id:1,
-      title: "SASS",
-      img:
-          "assets.nosync/sassicon.png",
-      link: "https://sass-lang.com"
+          "assets.nosync/reduxicon.png",
+      link: "https://react-redux.js.org"
     },
     {
       id:1,
@@ -296,18 +282,36 @@
     },
     {
       id:1,
+      title: "SASS",
+      img:
+          "assets.nosync/sassicon.png",
+      link: "https://sass-lang.com"
+    },
+    
+    {
+      id:1,
+      title: "HTML5",
+      img:
+          "assets.nosync/html5.png",
+      link: "https://html.com/html5/"
+    },
+    {
+      id:1,
+      title: "AWS",
+      img:
+          "assets.nosync/awsicon.png",
+      link: "https://aws.amazon.com/?nc2=h_lg"
+    },
+    
+    
+    {
+      id:1,
       title: "Github",
       img:
           "assets.nosync/githubicon.png",
       link: "https://github.com"
     },
-    {
-      id:1,
-      title: "MongoDb",
-      img:
-          "assets.nosync/mongodbicon.png",
-      link: "https://www.mongodb.com"
-    },
+    
     {
       id:1,
       title: "NPM",
@@ -323,6 +327,7 @@
           "assets.nosync/yarnicon.png",
       link: "https://yarnpkg.com"
     },
+    
     {
       id:1,
       title: "Java",
