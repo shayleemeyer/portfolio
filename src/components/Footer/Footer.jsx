@@ -8,7 +8,7 @@ function Footer(){
     
 
 return (
-  <div className="footer" style={{height: "12rem"}} >
+  <div className="footer" id="footer" style={{height: "12rem"}} >
       <div className="container">
           <div className="header">
               <h1>Let's Work Together</h1>

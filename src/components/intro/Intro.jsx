@@ -21,7 +21,7 @@ export default function Intro() {
             <div className="introContent">
            
                 <div className="wrapper">
-                <img src="/assets.nosync/branches.jpg" alt=""/>
+                <img src="/assets.nosync/leafshadow.jpg" alt=""/>
                     <h2>Hi There, I'm</h2>
                     <h1>Shaylee Meyer</h1>
                     <h3>

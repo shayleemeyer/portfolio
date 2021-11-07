@@ -15,13 +15,18 @@
     
     h1 {
         font-size: 4vw;
-        color: whitesmoke;
+        color: #1d322d;
         height: 70vh;
         text-align: center;
        
         @include media ("<996px"){
             font-size: 2em;
+    
             
+        }
+
+        @media (max-height: 800px){
+            height:80vh;
         }
        
        

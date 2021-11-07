@@ -12,13 +12,8 @@
     },
     {
       id: 3,
-      title: "Cute Bean",
-      img: "assets.nosync/cutebean.jpg",
-    },
-    {
-      id: 4,
       title: "Bean",
-      img: "assets.nosync/bean.jpg",
+      img: "assets.nosync/cutebean.jpg",
     },
     {
       id: 5,

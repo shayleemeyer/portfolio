@@ -16,7 +16,7 @@
 
     h1{
         font-size: 4vw;
-        color: white;
+        color: whitesmoke;
         margin: 40px;
         
         
@@ -58,22 +58,22 @@
 
 
         .item{
-            width: 17vw;
-            height: 17vw;
+            width: 14vw;
+            height: 14vw;
             border-radius: 20px;
-            border: 3px solid rgb(239, 235, 235);
+            border: 3px solid whitesmoke;
             margin: 15px 20px;
             display: flex;
             justify-content: center;
             align-items: center;
-            color: white;
+            color: whitesmoke;
             position: relative;
             transition: all .5s ease;
             cursor: pointer;
 
             h3{
                 position: absolute;
-                font-size: 10px;
+                font-size: 2vw;
                 text-align: center;
 
                 
@@ -84,6 +84,7 @@
                 height: 100%;
                 object-fit: cover;
                 z-index: 1;
+                
             }
 
             &:hover{
