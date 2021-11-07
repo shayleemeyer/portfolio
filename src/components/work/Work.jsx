@@ -43,7 +43,7 @@ console.log("first current slide" + currentSlide);
     return (
         
        <div className = 'work' id="work">
-       <h1>Work history</h1>
+       <h1>Work History</h1>
        
        <div style={{display: "flex", flexDirection:"row", alignItems: "center"}}>
        

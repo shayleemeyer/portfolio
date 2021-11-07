@@ -11,6 +11,7 @@
   @include mobile{
     justify-content: space-around;
   }
+  
 
 
   h1 {
@@ -20,8 +21,9 @@
     color: #1d322d;
 
     @include media ("<500px"){
-      font-size: 5vw;
-      margin: 50px;
+      font-size: 2rem;
+      margin: 7vh;
+      height:10vh;
     }
   }
 
@@ -41,7 +43,7 @@
 
     .card {
       width: 250px;
-      height: 80%;
+      height: 60vh;
       background-color: white;
       border-radius: 10px;
       box-shadow: 0px 0px 15px -8px black;
@@ -51,10 +53,14 @@
       padding: 20px;
       transition: all 1s ease;
       overflow-y: hidden;
+
+      @include media("<507px"){
+        padding:5px;
+      }
     
 
       @include mobile{
-  
+        height:50vh;
         margin: 10px 0;
       }
 
@@ -66,7 +72,7 @@
 
           @include mobile{
             width: 250px;
-            height: 80%;
+            height: 50vh;
             margin: 1px;
           }
       }
@@ -80,25 +86,28 @@
         align-items: center;
         justify-content: center;
         overflow-y: hidden;
+        
+        
 
         img {
           &.left,
           &.right {
-            height: 50px;
+            height: 25px;
             overflow-y: hidden;
           }
           &.user {
-            height: 100px;
-            width: 100px;
             border-radius: 50%;
             object-fit: cover;
             overflow-y: hidden;
+            height: 5rem;
+            width: 5rem;
+            
            
 
             @include media("<769px"){
               width: 30px;
               height: 30px;
-              margin: 20px;
+              margin: 10px;
             }
           }
         }
@@ -109,11 +118,17 @@
         border-radius: 10px;
         background-color: rgb(250, 244, 245);
         
-
+        @include media("<426px"){
+          display:none;
+        }
+        @media (max-height: 850px){
+          height: 30vh;
+        }
+    
         @include mobile{
           font-size: 12px;
           padding: 5px;
-          height: 20vw;
+          height: 20vh;
         }
       }
       .bottom {
@@ -129,7 +144,8 @@
           overflow-y: hidden;
           
           @include media("<769px"){
-            padding: 30px;
+            padding: 20px;
+            font-size: .9rem;
     
         }
 
@@ -141,7 +157,7 @@
             overflow-y: hidden;
             
 
-            @include media("<769px"){
+            @include media("<940px"){
               display: none;
       
           }
