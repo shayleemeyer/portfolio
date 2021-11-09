@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "./footer.scss";
 import { SocialIcon } from 'react-social-icons';
-import {Button, Modal, ModalHeader, ModalBody,  ModalFooter} from "reactstrap";
+
 
 
 function Footer(){
@@ -24,6 +24,9 @@ return (
                     <SocialIcon url="mailto: shayleeomeyer@gmail.com" target="_blank" network="email" fgColor="#bbc0b9" />
                 </code> 
             </div>
+        <div className="CV">
+            <a class="cv" href="assets.nosync/ShayResume.pdf" target="_blank">Download CV</a>
+        </div>
         <div className="rights">
             <p>© 2021 Shaylee Meyer. All rights reserved.</p>
         </div>

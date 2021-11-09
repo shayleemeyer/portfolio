@@ -16,6 +16,11 @@
       img: "assets.nosync/cutebean.jpg",
     },
     {
+      id: 4,
+      title: "Bean",
+      img: "assets.nosync/bean.jpg",
+    },
+    {
       id: 5,
       title: "Goofy Bean",
       img: "assets.nosync/goofybean.PNG",
