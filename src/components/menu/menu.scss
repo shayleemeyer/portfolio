@@ -1,4 +1,5 @@
 @import "../../global.scss";
+@import "../../breakpoints.scss";
 
 .menu{
     width: 325px;
@@ -22,11 +23,16 @@
         margin: 0;
         padding: 0;
         list-style: none;
-        font-size: 30px;
-        font-weight: 375;
+        font-size: 2rem;
+        font-weight: 300;
         color: $mainColor;
         text-shadow: 1px 1px #bbc0b9;
-        width: 60%;
+        width: 70%;
+
+        @media screen and ( max-height: 768px){
+            font-size: 1.7rem;
+            margin-top: 22vh;
+          }
 
         li{
             margin-bottom: 30px;
